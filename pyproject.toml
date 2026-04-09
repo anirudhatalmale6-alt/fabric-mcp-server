@@ -1,0 +1,14 @@
+[project]
+name = "fabric-mcp-server"
+version = "1.0.0"
+description = "MCP server to connect Claude Desktop to Microsoft Fabric semantic models"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "msal>=1.28.0",
+    "requests>=2.31.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
