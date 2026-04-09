@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 # Set env vars for the auth
-CLIENT_ID = os.environ.get("FABRIC_CLIENT_ID", "04b07795-a71b-4346-935c-02b550d6d76a")
+CLIENT_ID = os.environ.get("FABRIC_CLIENT_ID", "634eb046-4812-4c08-a567-4fze0f3bdbfb")
 TENANT_ID = os.environ.get("FABRIC_TENANT_ID", "f25bg3e8-cd4c-4de5-ba62-ac45f605318d")
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
 SCOPES = ["https://analysis.windows.net/powerbi/api/Dataset.Read.All"]
