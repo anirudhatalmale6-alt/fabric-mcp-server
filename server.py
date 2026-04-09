@@ -103,10 +103,7 @@ def pbi_request(method: str, url: str, **kwargs) -> requests.Response:
 # MCP Server
 # ---------------------------------------------------------------------------
 
-mcp = FastMCP(
-    "Fabric Semantic Model",
-    description="Consulta modelos semánticos de Microsoft Fabric / Power BI desde Claude",
-)
+mcp = FastMCP("Fabric Semantic Model")
 
 
 @mcp.tool()
