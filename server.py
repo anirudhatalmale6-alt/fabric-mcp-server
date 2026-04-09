@@ -23,7 +23,7 @@ from mcp.server.fastmcp import FastMCP
 CLIENT_ID = os.environ.get("FABRIC_CLIENT_ID", "")
 TENANT_ID = os.environ.get("FABRIC_TENANT_ID", "")
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
-SCOPES = ["https://analysis.windows.net/powerbi/api/.default"]
+SCOPES = ["https://analysis.windows.net/powerbi/api/Dataset.Read.All"]
 PBI_BASE = "https://api.powerbi.com/v1.0/myorg"
 
 TOKEN_CACHE_FILE = Path(__file__).parent / ".token_cache.json"
