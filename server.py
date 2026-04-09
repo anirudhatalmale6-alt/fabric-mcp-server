@@ -20,7 +20,7 @@ from mcp.server.fastmcp import FastMCP
 # Configuration
 # ---------------------------------------------------------------------------
 
-CLIENT_ID = os.environ.get("FABRIC_CLIENT_ID", "7f67af8a-fedc-4b08-8b4e-37c4d127b6cf")
+CLIENT_ID = os.environ.get("FABRIC_CLIENT_ID", "04b07795-a71b-4346-935c-02b550d6d76a")
 TENANT_ID = os.environ.get("FABRIC_TENANT_ID", "")
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
 SCOPES = ["https://analysis.windows.net/powerbi/api/Dataset.Read.All"]
